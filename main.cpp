@@ -70,12 +70,12 @@ BigInt fib(int n) {
 }
 
 int main() {
-    int n = 1000000;
+    int n = 10;
     BigInt result = fib(n);
     std::cout << "uint64_t= " << UINT64_MAX << std::endl;
     // Save result to a file
     std::stringstream file_name;
-    file_name << "fib_" << n << "_size_" << result.size() << ".txt";
+    file_name << "results/fib_" << n << "_size_" << result.size() << ".txt";
     std::ofstream file(file_name.str());
     file << result;
     file.close();
