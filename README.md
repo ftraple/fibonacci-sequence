@@ -1,4 +1,4 @@
-# Dynamic Programming and Recursion: Overlapping Subproblems
+# Dynamic Programming and Recursion
 
 ## Overlapping Subproblems
 
